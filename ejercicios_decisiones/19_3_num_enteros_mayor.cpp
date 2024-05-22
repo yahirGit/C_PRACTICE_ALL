@@ -25,11 +25,11 @@ int main(){
     cout << "Digite el tercer numero: "; //Leemos el tercer numero
     cin >> numero;
 
-    if (numero > numMayor){ // Si el tercernumero es mayor que el segundo entonces los guardamos en numMayor
-        numMayor = numero;
+    if (numero > numMayor){ // Si el tercer numero es mayor que el segundo entonces los guardamos en numMayor porque? 
+        numMayor = numero; // porque estamos reemplazando el valor de la variable numero y numMayor
     }
 
-    //Esto establece que cada vez que digitamos un nuevo numero este se tiene que comprar y almacenar en la varaible
+    //Esto establece que cada vez que digitamos un nuevo numero este se tiene que comparar y almacenar en la varaible
     // numMayor muy parecido al funcionamiento de un contador.
 
      cout << "El numero mayor es : " << numMayor;
