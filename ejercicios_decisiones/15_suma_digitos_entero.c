@@ -27,9 +27,7 @@ int main(){
         resultSuma = uDigito + dDigito + tDigito;
 
         //printf("Los digitos son uno:%d dos:%d tres:%d\n",uDigito,dDigito,tDigito);
-
         printf("La suma de todos los digitos del numero: %d es la siguiente = %d\n",num,resultSuma);
-
         
     }else{
          printf("Digite un numero de tres digitos");
