@@ -6,7 +6,7 @@ int main()
     //ud  = ultimo digito
     int num,pd,ud;
 
-    printf("\nPrograma num 8. Leer un numero entero de dos dígitos y si sus digitos son primos.\n");
+    printf("\nPrograma num 8. Leer un numero entero de dos dígitos y determinar si sus digitos son primos.\n");
     printf("\n============\n");
 
     printf("\nDigite un numero entero de dos digitos: ");
