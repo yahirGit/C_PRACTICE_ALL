@@ -12,7 +12,7 @@ int main(){
 
 
 
-    cout << "\nEjercicio 24. Leer un numero entero de tres digitos y determinar cuantos digitos pares tiene..\n";
+    cout << "\nEjercicio 25. Leer un numero entero de tres digitos y determinar si alguno de sus digitos es igual a la suma de los otros dos.\n";
     cout << "\n################\n";
 
     int numero;
