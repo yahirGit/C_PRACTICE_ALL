@@ -1,0 +1,1 @@
+cout << "Sus digitos son " << " los pares son: " << endl;
