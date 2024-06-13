@@ -14,7 +14,7 @@ int main()
     cout << "Digite un numero entero de 2 digitos: ";
     cin >> numero;
 
-    if(numero < 10 && numero > 99){
+    if(numero < 10 || numero > 99){
         cout << "El numero no es de dos digitos." << endl;
         return 1;
     }
@@ -24,11 +24,11 @@ int main()
     switch(digito2){
         case 1: cout << "El primer digito del numero es: "<< digito1 << endl;
         break;
-        case 2: cout << "La suma de los digitos del numero: "<< digito1+digito2 << endl;
+        case 2: cout << "La suma de los digitos del numero: "<< (digito1 + digito2) << endl;
         break;
-        case 3: cout << "El producto de los digitos del numero es: " << digito1*digito2 << endl;
+        case 3: cout << "El producto de los digitos del numero es: " << (digito1 * digito2) << endl;
         break;
-        default: cout << "El numero no termina en 1, 2 o 3.";
+        default: cout << "El numero no termina en 1, 2 o 3." << endl;
     }
 
     return 0;
